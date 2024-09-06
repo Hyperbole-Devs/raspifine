@@ -1,4 +1,4 @@
-# Description
+# RaspiFine Description
 RaspiFine is a free, lightweight optimization modpack specially made to be run on Raspberry Pis. It consists of the best configs and mods specially optimized for users playing Minecraft on the Raspberry Pi. RaspiFine also includes some carefully chosen Quality-Of-Life mods, to balance the Optimization/Quality scale.
 
 ![This modpack is available on Modrinth.](https://github.com/intergrav/devins-badges/raw/2dc967fc44dc73850eee42c133a55c8ffc5e30cb/assets/cozy/available/modrinth_vector.svg)
