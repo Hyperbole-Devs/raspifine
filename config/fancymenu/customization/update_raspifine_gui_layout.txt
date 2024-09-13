@@ -1,0 +1,148 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = update_raspifine_gui
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1716690280308
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:fc09be71-7355-4e51-b6d8-45cc1fc6bdfe-1716690243787] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+element {
+  button_element_executable_block_identifier = 6a728137-f2de-4e6e-bedb-76cb76417fc5-1716603538720
+  [executable_action_instance:f4ce26e5-fe35-4dae-a0cf-501b617ab6c9-1716604045070][action_type:openlink] = https://modrinth.com/modpack/raspifine/versions
+  [executable_block:6a728137-f2de-4e6e-bedb-76cb76417fc5-1716603538720][type:generic] = [executables:f4ce26e5-fe35-4dae-a0cf-501b617ab6c9-1716604045070;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Update From Modrinth
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 6179e906-a5e0-49ba-9802-9c877d85bcb0-1716603538720
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -119
+  y = -81
+  width = 119
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 7e15814a-a889-4d22-b5ac-c09cb7330831-1716603538720
+  [loading_requirement_container_meta:7e15814a-a889-4d22-b5ac-c09cb7330831-1716603538720] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 7e791175-a7c0-4b24-96d0-4520945deded-1716603888347
+  [executable_action_instance:b404a8bc-fa9c-4d8f-b646-61c60230c33e-1716605533159][action_type:opengui] = raspifine_licence_gui
+  [executable_block:7e791175-a7c0-4b24-96d0-4520945deded-1716603888347][type:generic] = [executables:b404a8bc-fa9c-4d8f-b646-61c60230c33e-1716605533159;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Modpack Licence
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 1fe06112-4145-47db-a19c-7ec3cc3f0c2a-1716603888347
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 1
+  y = -81
+  width = 122
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = a261e453-a4b1-48bf-ab66-ca90de7e1839-1716603888347
+  [loading_requirement_container_meta:a261e453-a4b1-48bf-ab66-ca90de7e1839-1716603888347] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1f0dfde9-7110-494a-a34d-d45a5a8e03d3-1716603973676
+  [executable_action_instance:d64fb84e-54ef-41a4-9a26-6feaa5579b63-1716604179445][action_type:closegui] = 
+  [executable_block:1f0dfde9-7110-494a-a34d-d45a5a8e03d3-1716603973676][type:generic] = [executables:d64fb84e-54ef-41a4-9a26-6feaa5579b63-1716604179445;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Cancel
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 4031c1e2-a225-4ac5-a424-8a546c54fe1d-1716603973676
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -50
+  y = -10
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e1d75a3d-5316-4f63-959f-46791c82e76d-1716603973676
+  [loading_requirement_container_meta:e1d75a3d-5316-4f63-959f-46791c82e76d-1716603973676] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 4ec9ecfb-9bfc-4024-93e2-071861f57028-1716687783132
+  [executable_action_instance:727be2f4-b59e-4759-b3ad-8d2b6ceb388c-1716689889617][action_type:reloadmenu] = 
+  [executable_action_instance:c2189d7f-1e47-4be9-adaa-7255c7ea3e83-1716690194137][action_type:update_screen] = 
+  [executable_action_instance:be09c469-0b57-4e8f-bf26-86309402b06c-1716690215939][action_type:opengui] = title_screen
+  [executable_block:4ec9ecfb-9bfc-4024-93e2-071861f57028-1716687783132][type:generic] = [executables:727be2f4-b59e-4759-b3ad-8d2b6ceb388c-1716689889617;c2189d7f-1e47-4be9-adaa-7255c7ea3e83-1716690194137;be09c469-0b57-4e8f-bf26-86309402b06c-1716690215939;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Reload FancyMenu Customization
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 9f4d568c-10ba-45b9-a4cb-a70abc0b9a7c-1716687783132
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -119
+  y = -58
+  width = 242
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = f8dc1d9e-11bf-4701-8233-74c350480b9b-1716687783132
+  [loading_requirement_container_meta:f8dc1d9e-11bf-4701-8233-74c350480b9b-1716687783132] = [groups:][instances:]
+}
+
