@@ -1,0 +1,23 @@
+type = custom_gui_screens
+
+overridden_screens {
+}
+
+custom_gui {
+  identifier = raspifine_licence_gui
+  title = RaspiFine CC-BY-NC-SA Licence Agreement
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
+  identifier = update_raspifine_gui
+  title = RaspiFine Options
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
